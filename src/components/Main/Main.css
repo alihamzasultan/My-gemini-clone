@@ -227,5 +227,17 @@
         position: relative;
         cursor: pointer;
     }
+       .loader hr {
+        animation: loader 1.2s infinite ease-in-out;
+        border: none;
+        height: 12px;
+        width: 200px; /* Adjust width as needed */
+        border-radius: 5px; /* Adjust border-radius for rounded corners */
+        margin: 0 5px; /* Add margin to create gap between bars */
+        background: linear-gradient(to right, #003a5c, #50b0ff, #00329e); /* Adjust gradient colors */
+        background-size: 200% 100%; /* Double the size horizontally to ensure smooth transition */
+        margin-top: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 }
 
